@@ -53,8 +53,7 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.registerTask('default', ['babel']);
-    grunt.registerTask('copy', ['copy']);
+    grunt.registerTask('default', ['babel', 'copy']);
     grunt.loadNpmTasks('grunt-babel');
     grunt.loadNpmTasks('grunt-contrib-copy');
 };
